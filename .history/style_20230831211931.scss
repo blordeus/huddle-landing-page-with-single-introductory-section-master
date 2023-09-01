@@ -40,7 +40,7 @@ button {
     cursor: pointer;
     transition: 0.3s;
     width: 60%;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
 }
 
@@ -84,6 +84,7 @@ button:hover {
     }
 
     .icons {
-        transform: translate(-135px, 15px) scale(1.2,1.2);
+        transform: translate(-115px, 10px);
+        scale: 1.2;
     }
   }
